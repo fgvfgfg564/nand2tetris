@@ -1,0 +1,106 @@
+<class>
+	<KEYWORD> class </KEYWORD>
+	<className>
+		<IDENTIFIER> Main </IDENTIFIER>
+	</className>
+	<SYMBOL> { </SYMBOL>
+	<subroutineDec>
+		<KEYWORD> function </KEYWORD>
+		<KEYWORD> void </KEYWORD>
+		<subroutineName>
+			<IDENTIFIER> main </IDENTIFIER>
+		</subroutineName>
+		<SYMBOL> ( </SYMBOL>
+		<parameterList>
+		</parameterList>
+		<SYMBOL> ) </SYMBOL>
+		<subroutineBody>
+			<SYMBOL> { </SYMBOL>
+			<varDec>
+				<KEYWORD> var </KEYWORD>
+				<type>
+					<IDENTIFIER> SquareGame </IDENTIFIER>
+				</type>
+				<varName>
+					<IDENTIFIER> game </IDENTIFIER>
+				</varName>
+				<SYMBOL> ; </SYMBOL>
+			</varDec>
+			<statements>
+				<statement>
+					<letStatement>
+						<KEYWORD> let </KEYWORD>
+						<varName>
+							<IDENTIFIER> game </IDENTIFIER>
+						</varName>
+						<SYMBOL> = </SYMBOL>
+						<expression>
+							<term>
+								<subroutineCall>
+									<className>
+										<IDENTIFIER> SquareGame </IDENTIFIER>
+									</className>
+									<SYMBOL> . </SYMBOL>
+									<subroutineName>
+										<IDENTIFIER> new </IDENTIFIER>
+									</subroutineName>
+									<SYMBOL> ( </SYMBOL>
+									<expressionList>
+									</expressionList>
+									<SYMBOL> ) </SYMBOL>
+								</subroutineCall>
+							</term>
+						</expression>
+						<SYMBOL> ; </SYMBOL>
+					</letStatement>
+				</statement>
+				<statement>
+					<doStatement>
+						<KEYWORD> do </KEYWORD>
+						<subroutineCall>
+							<className>
+								<IDENTIFIER> game </IDENTIFIER>
+							</className>
+							<SYMBOL> . </SYMBOL>
+							<subroutineName>
+								<IDENTIFIER> run </IDENTIFIER>
+							</subroutineName>
+							<SYMBOL> ( </SYMBOL>
+							<expressionList>
+							</expressionList>
+							<SYMBOL> ) </SYMBOL>
+						</subroutineCall>
+						<SYMBOL> ; </SYMBOL>
+					</doStatement>
+				</statement>
+				<statement>
+					<doStatement>
+						<KEYWORD> do </KEYWORD>
+						<subroutineCall>
+							<className>
+								<IDENTIFIER> game </IDENTIFIER>
+							</className>
+							<SYMBOL> . </SYMBOL>
+							<subroutineName>
+								<IDENTIFIER> dispose </IDENTIFIER>
+							</subroutineName>
+							<SYMBOL> ( </SYMBOL>
+							<expressionList>
+							</expressionList>
+							<SYMBOL> ) </SYMBOL>
+						</subroutineCall>
+						<SYMBOL> ; </SYMBOL>
+					</doStatement>
+				</statement>
+				<statement>
+					<returnStatement>
+						<KEYWORD> return </KEYWORD>
+						<SYMBOL> ; </SYMBOL>
+					</returnStatement>
+				</statement>
+			</statements>
+			<SYMBOL> } </SYMBOL>
+		</subroutineBody>
+	</subroutineDec>
+	<SYMBOL> } </SYMBOL>
+</class>

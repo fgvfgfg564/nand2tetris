@@ -1,0 +1,22 @@
+CHIP Expender {
+    IN in;
+    OUT out[16];
+
+    PARTS:
+    Line(in=in,out=out[0]);
+    Line(in=in,out=out[1]);
+    Line(in=in,out=out[2]);
+    Line(in=in,out=out[3]);
+    Line(in=in,out=out[4]);
+    Line(in=in,out=out[5]);
+    Line(in=in,out=out[6]);
+    Line(in=in,out=out[7]);
+    Line(in=in,out=out[8]);
+    Line(in=in,out=out[9]);
+    Line(in=in,out=out[10]);
+    Line(in=in,out=out[11]);
+    Line(in=in,out=out[12]);
+    Line(in=in,out=out[13]);
+    Line(in=in,out=out[14]);
+    Line(in=in,out=out[15]);
+}

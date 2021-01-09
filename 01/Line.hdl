@@ -1,0 +1,8 @@
+CHIP Line {
+	IN in;
+	OUT out;
+
+    PARTS:
+    Not(in=in,out=k);
+    Not(in=k,out=out);
+}
